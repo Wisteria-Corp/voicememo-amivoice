@@ -1,0 +1,4 @@
+# 標準ライブラリだけで動きます。以下は任意。
+sounddevice>=0.4   # record（マイク録音）
+pykakasi>=2.2      # words_from_csv.py の自動読み
+pytest>=7          # tests/

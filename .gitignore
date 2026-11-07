@@ -1,0 +1,7 @@
+memo/
+*.wav
+!samples/*.wav
+__pycache__/
+.pytest_cache/
+*.json
+!samples/*.json
