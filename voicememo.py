@@ -194,11 +194,17 @@ def structure(text: str, base: dt.date, words: list[tuple[str, str]] | None = No
     for s in sentences:
         has_date = [d for d in out["dates"] if d["text"] in s]
         has_time = [x for x in out["times"] if x["text"] in s]
-        if has_date and has_time:
-            out["events"].append({"summary": s, "date": has_date[0]["date"], "time": has_time[0]["time"]})
+        # 「月曜と水曜」のように並列でつながる日付は全部使う（「日曜に土曜の分を」は先頭だけ）
+        group = has_date[:1]
+        for d in has_date[1:]:
+            if any(f"{group[-1]['text']}{c}{d['text']}" in s for c in ("と", "・", "、", "や")):
+                group.append(d)
+        if group and has_time:
+            for d in group:
+                out["events"].append({"summary": s, "date": d["date"], "time": has_time[0]["time"]})
         elif action.search(s):
-            due = has_date[0]["date"] if has_date else None
-            out["todos"].append({"text": s, "due": due})
+            for d in (group or [None]):
+                out["todos"].append({"text": s, "due": d["date"] if d else None})
     out["title"] = sentences[0][:40] if sentences else ""
     return out
 

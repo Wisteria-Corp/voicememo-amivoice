@@ -42,3 +42,14 @@ def test_month_end():
     st = vm.structure("KTSラボから金曜に請求書が届く予定です。支払いは月末です。", BASE, WORDS)
     assert any(d["text"] == "月末" and d["date"] == "2026-11-30" for d in st["dates"])
     assert st["todos"]
+
+
+def test_parallel_weekdays_all_used():
+    st = vm.structure("月曜と水曜はKTSラボの定例です。", BASE, WORDS)
+    dues = sorted(t["due"] for t in st["todos"])
+    assert len(dues) == 2 and dues[0] < dues[1]
+
+
+def test_non_parallel_weekday_uses_first_only():
+    st = vm.structure("日曜の午前九時に土曜の分のログをまとめて共有します。", BASE, WORDS)
+    assert len(st["events"]) == 1
