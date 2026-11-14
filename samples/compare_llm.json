@@ -1,0 +1,865 @@
+{
+ "base_date": "2026-11-07",
+ "runs": {
+  "rules": {
+   "s1": {
+    "hit": 3,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-10"
+    ],
+    "times": [
+     "14:00"
+    ],
+    "yen": [],
+    "sec": 0.0,
+    "raw": {
+     "base_date": "2026-11-07",
+     "dates": [
+      {
+       "text": "来週火曜",
+       "date": "2026-11-10",
+       "weekday": "火",
+       "pos": 0
+      }
+     ],
+     "times": [
+      {
+       "text": "十四時",
+       "time": "14:00",
+       "pos": 5
+      }
+     ],
+     "amounts": [],
+     "pages": [
+      {
+       "text": "十六ページ",
+       "page": 16
+      }
+     ],
+     "orgs": [
+      "青嵐精機"
+     ],
+     "todos": [],
+     "events": [
+      {
+       "summary": "来週火曜の十四時から、青嵐精機さんと打ち合わせです",
+       "date": "2026-11-10",
+       "time": "14:00"
+      }
+     ],
+     "title": "来週火曜の十四時から、青嵐精機さんと打ち合わせです"
+    }
+   },
+   "s2": {
+    "hit": 4,
+    "total": 4,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-13"
+    ],
+    "times": [
+     "17:00"
+    ],
+    "yen": [
+     2300000
+    ],
+    "sec": 0.0,
+    "raw": {
+     "base_date": "2026-11-07",
+     "dates": [
+      {
+       "text": "金曜",
+       "date": "2026-11-13",
+       "weekday": "金",
+       "pos": 0
+      }
+     ],
+     "times": [
+      {
+       "text": "十七時",
+       "time": "17:00",
+       "pos": 3
+      }
+     ],
+     "amounts": [
+      {
+       "text": "二百三十万円",
+       "yen": 2300000
+      }
+     ],
+     "pages": [],
+     "orgs": [
+      "ノルディックベーカリー"
+     ],
+     "todos": [],
+     "events": [
+      {
+       "summary": "金曜の十七時までに、ノルディックベーカリーへ見積もりを送ります",
+       "date": "2026-11-13",
+       "time": "17:00"
+      }
+     ],
+     "title": "金曜の十七時までに、ノルディックベーカリーへ見積もりを送ります"
+    }
+   },
+   "s3": {
+    "hit": 2,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-09"
+    ],
+    "times": [],
+    "yen": [],
+    "sec": 0.0,
+    "raw": {
+     "base_date": "2026-11-07",
+     "dates": [
+      {
+       "text": "月曜",
+       "date": "2026-11-09",
+       "weekday": "月",
+       "pos": 0
+      },
+      {
+       "text": "水曜",
+       "date": "2026-11-11",
+       "weekday": "水",
+       "pos": 3
+      },
+      {
+       "text": "木曜",
+       "date": "2026-11-12",
+       "weekday": "木",
+       "pos": 17
+      }
+     ],
+     "times": [],
+     "amounts": [],
+     "pages": [],
+     "orgs": [
+      "KTSラボ"
+     ],
+     "todos": [
+      {
+       "text": "月曜と水曜はKTSラボの定例です",
+       "due": "2026-11-09"
+      }
+     ],
+     "events": [],
+     "title": "月曜と水曜はKTSラボの定例です"
+    }
+   },
+   "s4": {
+    "hit": 3,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-08"
+    ],
+    "times": [
+     "09:00"
+    ],
+    "yen": [],
+    "sec": 0.0,
+    "raw": {
+     "base_date": "2026-11-07",
+     "dates": [
+      {
+       "text": "日曜",
+       "date": "2026-11-08",
+       "weekday": "日",
+       "pos": 0
+      },
+      {
+       "text": "土曜",
+       "date": "2026-11-07",
+       "weekday": "土",
+       "pos": 8
+      }
+     ],
+     "times": [
+      {
+       "text": "午前九時",
+       "time": "09:00",
+       "pos": 3
+      }
+     ],
+     "amounts": [],
+     "pages": [],
+     "orgs": [
+      "青嵐精機"
+     ],
+     "todos": [],
+     "events": [
+      {
+       "summary": "日曜の午前九時に土曜の分のログをまとめて、青嵐精機の担当者へ共有します",
+       "date": "2026-11-08",
+       "time": "09:00"
+      }
+     ],
+     "title": "日曜の午前九時に土曜の分のログをまとめて、青嵐精機の担当者へ共有します"
+    }
+   },
+   "s5": {
+    "hit": 2,
+    "total": 2,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-10"
+    ],
+    "times": [],
+    "yen": [],
+    "sec": 0.0,
+    "raw": {
+     "base_date": "2026-11-07",
+     "dates": [
+      {
+       "text": "火曜",
+       "date": "2026-11-10",
+       "weekday": "火",
+       "pos": 29
+      }
+     ],
+     "times": [],
+     "amounts": [],
+     "pages": [
+      {
+       "text": "三ページ",
+       "page": 3
+      }
+     ],
+     "orgs": [
+      "ノルディックベーカリー"
+     ],
+     "todos": [
+      {
+       "text": "ノルディックベーカリーの件は、三ページ目の表を直してから、火曜に再送します",
+       "due": "2026-11-10"
+      }
+     ],
+     "events": [],
+     "title": "ノルディックベーカリーの件は、三ページ目の表を直してから、火曜に再送します"
+    }
+   },
+   "s6": {
+    "hit": 4,
+    "total": 4,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-13",
+     "2026-11-30"
+    ],
+    "times": [],
+    "yen": [
+     450000
+    ],
+    "sec": 0.0,
+    "raw": {
+     "base_date": "2026-11-07",
+     "dates": [
+      {
+       "text": "金曜",
+       "date": "2026-11-13",
+       "weekday": "金",
+       "pos": 7
+      },
+      {
+       "text": "月末",
+       "date": "2026-11-30",
+       "weekday": "月",
+       "pos": 34
+      }
+     ],
+     "times": [],
+     "amounts": [
+      {
+       "text": "四十五万円",
+       "yen": 450000
+      }
+     ],
+     "pages": [],
+     "orgs": [
+      "KTSラボ"
+     ],
+     "todos": [
+      {
+       "text": "KTSラボから金曜に請求書が届く予定です",
+       "due": "2026-11-13"
+      },
+      {
+       "text": "金額は四十五万円、支払いは月末です",
+       "due": "2026-11-30"
+      }
+     ],
+     "events": [],
+     "title": "KTSラボから金曜に請求書が届く予定です"
+    }
+   }
+  },
+  "ollama:qwen3-vl:8b-instruct": {
+   "s1": {
+    "hit": 1,
+    "total": 3,
+    "wrong_dates": 1,
+    "json_ok": true,
+    "dates": [
+     "2026-11-12"
+    ],
+    "times": [
+     "14:00"
+    ],
+    "yen": [],
+    "sec": 11.79,
+    "raw": {
+     "title": "",
+     "events": [
+      {
+       "summary": "青嵐精機さんと打ち合わせ",
+       "date": "2026-11-12",
+       "time": "14:00"
+      }
+     ],
+     "todos": [],
+     "orgs": [],
+     "amounts": []
+    }
+   },
+   "s2": {
+    "hit": 1,
+    "total": 4,
+    "wrong_dates": 1,
+    "json_ok": true,
+    "dates": [
+     "2026-11-06"
+    ],
+    "times": [],
+    "yen": [
+     2300000
+    ],
+    "sec": 5.49,
+    "raw": {
+     "title": "",
+     "events": [],
+     "todos": [
+      {
+       "text": "ノルディックベーカリーへ見積もりを送る",
+       "due": "2026-11-06"
+      }
+     ],
+     "orgs": [],
+     "amounts": [
+      {
+       "text": "二百三十万円",
+       "yen": 2300000
+      }
+     ]
+    }
+   },
+   "s3": {
+    "hit": 0,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [],
+    "times": [],
+    "yen": [],
+    "sec": 1.69,
+    "raw": {
+     "title": "",
+     "events": [],
+     "todos": [],
+     "orgs": [],
+     "amounts": []
+    }
+   },
+   "s4": {
+    "hit": 1,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-07"
+    ],
+    "times": [
+     "09:00"
+    ],
+    "yen": [],
+    "sec": 4.82,
+    "raw": {
+     "title": "",
+     "events": [
+      {
+       "summary": "土曜の分のログをまとめて青嵐精機の担当者へ共有",
+       "date": "2026-11-07",
+       "time": "09:00"
+      }
+     ],
+     "todos": [],
+     "orgs": [],
+     "amounts": []
+    }
+   },
+   "s5": {
+    "hit": 0,
+    "total": 2,
+    "wrong_dates": 1,
+    "json_ok": true,
+    "dates": [
+     "2026-11-11"
+    ],
+    "times": [
+     "10:00"
+    ],
+    "yen": [],
+    "sec": 4.95,
+    "raw": {
+     "title": "",
+     "events": [
+      {
+       "summary": "ノルディックベーカリーの件：三ページ目の表を直してから再送",
+       "date": "2026-11-11",
+       "time": "10:00"
+      }
+     ],
+     "todos": [],
+     "orgs": [],
+     "amounts": []
+    }
+   },
+   "s6": {
+    "hit": 1,
+    "total": 4,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [],
+    "times": [],
+    "yen": [
+     450000
+    ],
+    "sec": 3.21,
+    "raw": {
+     "title": "",
+     "events": [],
+     "todos": [],
+     "orgs": [],
+     "amounts": [
+      {
+       "text": "四十五万円",
+       "yen": 450000
+      }
+     ]
+    }
+   }
+  },
+  "ollama:qwen3.8:27b": {
+   "s1": {
+    "hit": 0,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": false,
+    "sec": 300.03,
+    "raw": null
+   },
+   "s2": {
+    "hit": 4,
+    "total": 4,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-13"
+    ],
+    "times": [
+     "17:00"
+    ],
+    "yen": [
+     2300000
+    ],
+    "sec": 115.33,
+    "raw": {
+     "title": "ノルディックベーカリーへ見積もりを送る",
+     "events": [
+      {
+       "summary": "ノルディックベーカリーへ見積もりを送る",
+       "date": "2026-11-13",
+       "time": "17:00"
+      }
+     ],
+     "todos": [
+      {
+       "text": "ノルディックベーカリーへ見積もりを送る",
+       "due": "2026-11-13"
+      }
+     ],
+     "orgs": [
+      "ノルディックベーカリー"
+     ],
+     "amounts": [
+      {
+       "text": "二百三十万円",
+       "yen": 2300000
+      }
+     ]
+    }
+   },
+   "s3": {
+    "hit": 3,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-09",
+     "2026-11-11"
+    ],
+    "times": [],
+    "yen": [],
+    "sec": 42.6,
+    "raw": {
+     "title": "KTSラボ 定例スケジュール",
+     "events": [
+      {
+       "summary": "KTSラボ 定例（月曜）",
+       "date": "2026-11-09",
+       "time": null
+      },
+      {
+       "summary": "KTSラボ 定例（水曜）",
+       "date": "2026-11-11",
+       "time": null
+      }
+     ],
+     "todos": [
+      {
+       "text": "木曜を休みにする",
+       "due": null
+      }
+     ],
+     "orgs": [
+      "KTSラボ"
+     ],
+     "amounts": []
+    }
+   },
+   "s4": {
+    "hit": 3,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-08"
+    ],
+    "times": [
+     "09:00"
+    ],
+    "yen": [],
+    "sec": 47.2,
+    "raw": {
+     "title": "青嵐精機への土曜ログ共有",
+     "events": [
+      {
+       "summary": "土曜の分のログをまとめて、青嵐精機の担当者へ共有",
+       "date": "2026-11-08",
+       "time": "09:00"
+      }
+     ],
+     "todos": [
+      {
+       "text": "土曜の分のログをまとめる",
+       "due": "2026-11-08"
+      }
+     ],
+     "orgs": [
+      "青嵐精機"
+     ],
+     "amounts": []
+    }
+   },
+   "s5": {
+    "hit": 1,
+    "total": 2,
+    "wrong_dates": 1,
+    "json_ok": true,
+    "dates": [
+     "2026-11-11"
+    ],
+    "times": [],
+    "yen": [],
+    "sec": 55.28,
+    "raw": {
+     "title": "ノルディックベーカリーの件",
+     "events": [
+      {
+       "summary": "ノルディックベーカリーに再送",
+       "date": "2026-11-11",
+       "time": null
+      }
+     ],
+     "todos": [
+      {
+       "text": "三ページ目の表を直す",
+       "due": null
+      }
+     ],
+     "orgs": [
+      "ノルディックベーカリー"
+     ],
+     "amounts": []
+    }
+   },
+   "s6": {
+    "hit": 4,
+    "total": 4,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-13",
+     "2026-11-30"
+    ],
+    "times": [],
+    "yen": [
+     450000
+    ],
+    "sec": 28.86,
+    "raw": {
+     "title": "KTSラボの請求書",
+     "events": [
+      {
+       "summary": "KTSラボから請求書が届く",
+       "date": "2026-11-13",
+       "time": null
+      }
+     ],
+     "todos": [
+      {
+       "text": "KTSラボの請求書を支払う",
+       "due": "2026-11-30"
+      }
+     ],
+     "orgs": [
+      "KTSラボ"
+     ],
+     "amounts": [
+      {
+       "text": "四十五万円",
+       "yen": 450000
+      }
+     ]
+    }
+   }
+  },
+  "ollama:gpt-oss:120b": {
+   "s1": {
+    "hit": 3,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-10"
+    ],
+    "times": [
+     "14:00"
+    ],
+    "yen": [],
+    "sec": 34.39,
+    "raw": {
+     "title": "青嵐精機さんとの打ち合わせ",
+     "events": [
+      {
+       "summary": "青嵐精機さんと打ち合わせ",
+       "date": "2026-11-10",
+       "time": "14:00"
+      }
+     ],
+     "todos": [],
+     "orgs": [
+      "青嵐精機"
+     ],
+     "amounts": []
+    }
+   },
+   "s2": {
+    "hit": 4,
+    "total": 4,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-13"
+    ],
+    "times": [
+     "17:00"
+    ],
+    "yen": [
+     2300000
+    ],
+    "sec": 21.2,
+    "raw": {
+     "title": "見積もり送付タスク",
+     "events": [
+      {
+       "summary": "ノルディックベーカリーへ見積もり送付締切",
+       "date": "2026-11-13",
+       "time": "17:00"
+      }
+     ],
+     "todos": [
+      {
+       "text": "ノルディックベーカリーへ見積もりを送る",
+       "due": "2026-11-13"
+      }
+     ],
+     "orgs": [
+      "ノルディックベーカリー"
+     ],
+     "amounts": [
+      {
+       "text": "見積もり金額",
+       "yen": 2300000
+      }
+     ]
+    }
+   },
+   "s3": {
+    "hit": 1,
+    "total": 3,
+    "wrong_dates": 2,
+    "json_ok": true,
+    "dates": [
+     "2026-11-02",
+     "2026-11-04"
+    ],
+    "times": [],
+    "yen": [],
+    "sec": 17.79,
+    "raw": {
+     "title": "KTSラボ定例スケジュール",
+     "events": [
+      {
+       "summary": "KTSラボ定例",
+       "date": "2026-11-02",
+       "time": null
+      },
+      {
+       "summary": "KTSラボ定例",
+       "date": "2026-11-04",
+       "time": null
+      }
+     ],
+     "todos": [],
+     "orgs": [
+      "KTSラボ"
+     ],
+     "amounts": []
+    }
+   },
+   "s4": {
+    "hit": 3,
+    "total": 3,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-08"
+    ],
+    "times": [
+     "09:00"
+    ],
+    "yen": [],
+    "sec": 26.89,
+    "raw": {
+     "title": "土曜のログ共有",
+     "events": [
+      {
+       "summary": "土曜の分のログをまとめて、青嵐精機の担当者へ共有",
+       "date": "2026-11-08",
+       "time": "09:00"
+      }
+     ],
+     "todos": [],
+     "orgs": [
+      "青嵐精機"
+     ],
+     "amounts": []
+    }
+   },
+   "s5": {
+    "hit": 2,
+    "total": 2,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-10"
+    ],
+    "times": [],
+    "yen": [],
+    "sec": 19.25,
+    "raw": {
+     "title": "ノルディックベーカリーの件",
+     "events": [
+      {
+       "summary": "再送",
+       "date": "2026-11-10",
+       "time": null
+      }
+     ],
+     "todos": [
+      {
+       "text": "三ページ目の表を直す",
+       "due": null
+      }
+     ],
+     "orgs": [
+      "ノルディックベーカリー"
+     ],
+     "amounts": []
+    }
+   },
+   "s6": {
+    "hit": 4,
+    "total": 4,
+    "wrong_dates": 0,
+    "json_ok": true,
+    "dates": [
+     "2026-11-13",
+     "2026-11-30"
+    ],
+    "times": [],
+    "yen": [
+     450000
+    ],
+    "sec": 29.28,
+    "raw": {
+     "title": "KTSラボからの請求書",
+     "events": [
+      {
+       "summary": "KTSラボから請求書が届く",
+       "date": "2026-11-13",
+       "time": ""
+      }
+     ],
+     "todos": [
+      {
+       "text": "請求書の支払い",
+       "due": "2026-11-30"
+      }
+     ],
+     "orgs": [
+      "KTSラボ"
+     ],
+     "amounts": [
+      {
+       "text": "請求金額",
+       "yen": 450000
+      }
+     ]
+    }
+   }
+  }
+ }
+}
